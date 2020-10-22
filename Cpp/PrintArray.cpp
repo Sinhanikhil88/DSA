@@ -17,4 +17,4 @@ int main()
         cout << a[i] <<endl ;
     }
     
-}
+}  // Nikhil
