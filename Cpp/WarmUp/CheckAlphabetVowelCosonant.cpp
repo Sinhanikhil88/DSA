@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main ()
+int main()
 {
     char i;
     cout << "Enter an alphabet\n";
@@ -8,24 +8,23 @@ int main ()
     switch (i)
     {
     case 'a':
-    cout << "It is a vowel";
+        cout << "It is a vowel";
         break;
-        case 'e':
-    cout << "It is a vowel";
+    case 'e':
+        cout << "It is a vowel";
         break;
-     case 'i':
-    cout << "It is a vowel";
+    case 'i':
+        cout << "It is a vowel";
         break;
-     case 'o':
-    cout << "It is a vowel";
+    case 'o':
+        cout << "It is a vowel";
         break;
-     case 'u':
-    cout << "It is a vowel";
+    case 'u':
+        cout << "It is a vowel";
         break;
 
-    
     default:
-    cout << "It is a consonant";
+        cout << "It is a consonant";
         break;
     }
 }
