@@ -2,13 +2,13 @@
 using namespace std;
 int main()
 {
-    int i,n,s;
+   unsigned long long  i,n,s = 1;
     cout << "Enter first value\n";
-    cin >> s;
+    
         
     for (i=1;i<=64;i++)
     {
         s= s*2;
-        cout << s << "\n";
+        cout << i << " "<< s  << "\n";
     }
 }
